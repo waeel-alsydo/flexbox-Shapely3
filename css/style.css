@@ -1,0 +1,83 @@
+/* start fonts Google */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/* end fonts Google */
+
+/* start  Body */
+body {
+    height: 100vh;
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+/* start header */
+header {
+    height: 10vh;
+    background-color: #ffffff;
+}
+nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px
+}
+nav a {
+    text-decoration: none;
+}
+nav > a {
+    margin-left: 14%;
+    font-size: 24px;
+    font-weight: 300;
+    color: #666;
+}
+nav ul li {
+    display: inline-block;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+li a {
+    font-size: 12px;
+    color: #222;
+}
+/* end header */
+
+/* start Main */
+main  {
+    color: #fff;
+}
+main div {
+    text-align: center;
+    margin-top: 14.8rem;
+}
+div h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin: 0;
+}
+div p {
+    font-size: 14px;
+    margin-bottom: 4.5em;
+}
+main a {
+    color: #fff;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 55px;
+}
+main a:nth-child(3) {
+    border: 2px solid #745cf9;
+    background-color: #745cf9;  
+}
+main a:nth-child(4) {
+    border: 2px solid #fff;
+}
+main a:nth-child(3):hover {
+    background-color: #5234f9;
+}
+main a:nth-child(4):hover {
+    background-color: #fff;
+    color: #000
+}
+
+
